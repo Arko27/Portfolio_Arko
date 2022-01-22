@@ -50,6 +50,35 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
+/*===== SEND EMAIL =====*/
+document.getElementById("btn").addEventListener("click",sb);
+
+function sb(e)
+{
+    let nameUser = document.querySelector("#nm").value;
+    let mail = document.querySelector("#mail").value;
+    let message = document.querySelector("#msg").value;
+
+    //console.log(nameUser, mail, message);
+    sendMe(nameUser,mail,message);
+}
+
+function sendMe(nameUser,mail,message)
+{
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : 'arkosen27@gmail.com',
+        Password : "zpcbqcrcmcamhcnl",
+        To : 'arkosen27@gmail.com',
+        From : mail,
+        Subject : `${nameUser} has sent you a Message`,
+        Body : `Name: ${nameUser} <br/> Mail ID: ${mail} <br/> Message: ${message}`,
+    }).then(
+      message => alert("Mail has been Sent Successfully")
+    );
+
+}
+
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 

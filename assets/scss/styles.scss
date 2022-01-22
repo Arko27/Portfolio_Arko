@@ -152,9 +152,10 @@ img{
         }
     }
     &__logo{
+        color: var(--second-color);
         display: block;
         width: 67%;
-        height: 67%;
+        height: 67%;;
     }
     &__toggle{
         color: var(--second-color);
