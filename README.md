@@ -2,7 +2,7 @@
   
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-<div> <h2> Check Out The Website:\ </h2><a href="https://arko27.github.io/Portfolio_Arko/">Click Here</a>
+<div> <h2> Check Out The Website: </h2><a href="https://arko27.github.io/Portfolio_Arko/">Click Here</a>
 
 ### Website Preview
 <p align="center"> 
