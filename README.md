@@ -22,7 +22,7 @@
 ✔️ Education\
 ✔️ Skills\
 ✔️ Work\
-✔️ Contact Info\
+✔️ Contact Info
 
 
 ## Tools Used 🛠️
