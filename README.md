@@ -6,10 +6,8 @@
 
 ### Website Preview
 <p align="center"> 
-  <kbd>
-    <a href="https://github.com/Arko27/Portfolio_Arko" target="_blank"><img src="Preview.jpg"></a>
-  </kbd>
-</p>
+  https://github.com/Arko27/Portfolio_Arko/blob/Preview.jpg?raw=true
+  </p>
 
 ## Features 📋
 ⚡️ Fully Responsive\
