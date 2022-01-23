@@ -7,7 +7,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://arko27.github.io" target="_blank"><img src="Preview.jpg"></a>
+    <a href="https://Portfolio_Arko" target="_blank"><img src="Preview.jpg"></a>
   </kbd>
 </p>
 
