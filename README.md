@@ -6,7 +6,10 @@
 
 ### Website Preview
 <p align="center"> 
-  https://github.com/Arko27/Portfolio_Arko/blob/Preview.jpg?raw=true
+  <kbd>
+    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
+  </a>
+  </kbd>
   </p>
 
 ## Features 📋
