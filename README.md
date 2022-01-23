@@ -6,7 +6,7 @@
 
 ### Website Preview
 <p align="center"> 
-  <a href="https://github.com/Arko27/Portfolio_Arko"><img src="Preview.jpg">
+  <a href="https://arko27.github.io/Portfolio_Arko/" target="_blank"><img src="Preview.jpg">
   </a>
   </kbd>
 </p>
