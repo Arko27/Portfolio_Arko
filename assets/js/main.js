@@ -50,7 +50,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-/*===== SEND EMAIL =====*/
+/*===== CONTACT ME =====*/
 document.getElementById("btn").addEventListener("click",sb);
 
 function sb(e)
@@ -59,11 +59,29 @@ function sb(e)
     let mail = document.querySelector("#mail").value;
     let message = document.querySelector("#msg").value;
 
-    //console.log(nameUser, mail, message);
-    sendMe(nameUser,mail,message);
+    recieveMail(nameUser,mail,message);
+    sendMail(nameUser,mail,message);
 }
 
-function sendMe(nameUser,mail,message)
+/*===== SEND EMAIL =====*/
+function sendMail(nameUser,mail,message)
+{
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : 'arkosen27@gmail.com',
+        Password : "zpcbqcrcmcamhcnl",
+        To : mail,
+        From : 'arkosen27@gmail.com',
+        Subject : `${nameUser} has sent you a Message`,
+        Body : `Name: ${nameUser} <br/> Mail ID: ${mail} <br/> Message: ${message}`,
+    }).then(
+      message => alert("Mail has been Sent Successfully")
+    );
+
+}
+
+/*===== RECIEVE EMAIL =====*/
+function recieveMail(nameUser,mail,message)
 {
     Email.send({
         Host : "smtp.gmail.com",
@@ -76,7 +94,6 @@ function sendMe(nameUser,mail,message)
     }).then(
       message => alert("Mail has been Sent Successfully")
     );
-
 }
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
